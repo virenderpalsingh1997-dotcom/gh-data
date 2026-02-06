@@ -40,6 +40,6 @@ jobs:
         with:
           name: dist-files
       - name: List downloaded files
-        run: ls -la dist
+        run: ls -la 
       - name: Deploy
         run: echo "Deploying..."
